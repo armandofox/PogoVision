@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+
+<component name="AnimatedImages" extends="Group">
+  <script type="text/brightscript" uri="pkg:/components/AnimatedImages.brs" />
+  <children>
+    <Poster id="img0"
+            width="283"
+            height="320"
+            translation="[0.0,640.0]"
+            visible="true"
+            opacity="100.0"
+            uri="pkg:/images/img0.jpg"/>
+    <Animation id="floatUp0"
+               duration="10"
+               repeat="false"
+               easeFunction="linear">
+      <Vector2DFieldInterpolator id="floatUpVec0"
+                                 key="[0.0,1.0]"
+                                 keyValue="[[0,640],[0,-320]]"
+                                 fieldToInterp="img0.translation" />
+    </Animation>
+  </children>
+</component>
