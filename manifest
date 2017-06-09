@@ -3,9 +3,9 @@ subtitle=Scrolling Pictures
 major_version=1
 minor_version=1
 build_version=00001
-mm_icon_focus_hd=pkg:/images/sgxt_icon_hd.jpg
-splash_screen_fhd=pkg:/images/sgxt_spl_hd.jpg
+mm_icon_focus_hd=pkg:/images/icon.jpg
+splash_screen_fhd=pkg:/images/splash.jpg
 
 splash_color=#000000
-splash_min_time=1000
+splash_min_time=4000
 splash_rsg_optimization=1
