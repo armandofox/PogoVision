@@ -13,10 +13,7 @@ sub showChannelSGScreen()
 
 	scene = screen.CreateScene("ScrollingPixScene")
 
-
 	screen.show()
-        'm.global.addFields({ json: "", counter: 0 })
-        'm.global.json = FetchJSON()
 	while(true)
 		msg = wait(0, m.port)
 		msgType = type(msg)

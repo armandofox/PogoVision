@@ -4,9 +4,9 @@
   <script type="text/brightscript" uri="pkg:/components/AnimatedImages.brs" />
   <children>
     <Poster id="img0"
-            width="283"
-            height="320"
-            translation="[0.0,640.0]"
+            width="1"
+            height="1"
+            translation="[0.0,0.0]"
             visible="true"
             opacity="100.0"
             uri="pkg:/images/img0.jpg"/>
